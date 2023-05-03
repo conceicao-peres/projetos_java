@@ -1,5 +1,6 @@
 package construtores;
 
+import construtores.Aluno.MATRICULA;
 import construtores.Aluno.STATUS;
 
 public class Principal {
@@ -14,7 +15,11 @@ public class Principal {
 			aluno.situacao = STATUS.APROVADO;
 		}
 		
+		//use enum matricula
+		aluno.situacaoMatricula = MATRICULA.MATRICULADO;
+		
 		System.out.println("Média aluno: " + aluno.calcularMedia() + ". Situação aluno: " + aluno.situacao);
+		System.out.println("Situação matricula aluno: " + aluno.situacaoMatricula);
 	}
 
 }
