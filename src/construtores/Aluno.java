@@ -7,6 +7,7 @@ public class Aluno {
 	private double nota2;
 	private double nota3;
 	STATUS situacao;
+	MATRICULA situacaoMatricula;
 	
 	//metodo construtor aluno para receber as 3 notas
 	public Aluno(double nota1, double nota2, double nota3) {
@@ -18,6 +19,12 @@ public class Aluno {
 	public enum STATUS{
 		APROVADO,
 		REPROVADO
+	}
+	
+	public enum MATRICULA{
+		MATRICULADO,
+		PENDENDE,
+		RECUSADO
 	}
 	
 	//metodo para calclualar a media
