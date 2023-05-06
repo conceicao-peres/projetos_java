@@ -1,7 +1,5 @@
 package classesWrapper;
 
-import java.io.StringWriter;
-
 public class Demonstracao {
 
 	public static void main(String[] args) {
@@ -9,7 +7,7 @@ public class Demonstracao {
 		// Um tipo primitivo n�o tem como transformar em objeto a n�o ser utilizando 
 				// as classes Wrapper
 				//Autoboxing - exemplos
-				   /*
+				   
 				   Boolean bolWrapped =  true;
 				   System.out.println(bolWrapped.getClass());
 				   
@@ -33,7 +31,7 @@ public class Demonstracao {
 			      
 			       Double doubWrapped = 3.14159;
 			       System.out.println(doubWrapped.getClass());
-			       */
+			       
 			       String numero = "1";
 			       System.out.println(numero.getClass());
 			       
