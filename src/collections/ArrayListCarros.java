@@ -36,7 +36,7 @@ public class ArrayListCarros {
 		if(carros.contains("BMW")){
 			for(int i = 0; i < carros.size(); i++) {
 				if("BMW".equals(carros.get(i))) {
-					carros.set(i, "Bugati");
+					carros.set(i, "Bugatti");
 					break;
 				}
 			}
