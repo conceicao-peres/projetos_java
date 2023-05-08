@@ -1,4 +1,4 @@
-package annnotations_metadados;
+package annotations_metadados;
 
 public class TesteAnnotations {
 
